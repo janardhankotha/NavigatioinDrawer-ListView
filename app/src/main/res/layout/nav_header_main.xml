@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:id="@+id/listview_drawer_item_row">
+
+    <ImageView
+
+        android:id="@+id/imageViewprofile"
+        android:src="@drawable/trwislogo"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="0dp"
+        android:scaleType="fitXY"
+
+        />
+    <TextView
+        android:id="@+id/drawer_title_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"
+        />
+    <TextView
+        android:id="@+id/drawer_title_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1234567890"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
